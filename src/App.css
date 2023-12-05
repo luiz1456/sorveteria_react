@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.limitar-largura {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+.section-banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-top: 80px;
+}

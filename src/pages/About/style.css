@@ -1,0 +1,53 @@
+.banner-about {
+    background-image: url('assets/banner-sobre.png');
+    background-size: cover;
+    height: 70vh;
+}
+
+.about-info {
+    text-align: center;
+    padding: 70px 40px;
+}
+
+.about-info h2 {
+    font-size: 30px;
+}
+
+.about-info span {
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+.about-info p {
+    margin-top: 20px;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.container-imagens-sobre {
+    display: flex;
+
+}
+
+.container-imagens-sobre img {
+    width: 50vw;
+    object-fit: cover;
+}
+
+@media (max-width:768px) {
+    .container-imagens-sobre {
+        flex-direction: column;
+    }
+
+    .container-imagens-sobre img {
+        width: 100vw;
+    }
+}
+
+@media (max-width:425px) {
+    .title-banner-about h1 {
+        font-size: 45px;
+    }
+}
